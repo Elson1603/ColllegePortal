@@ -11,7 +11,7 @@ from django.db.models import Count
 from .forms import MarksUploadForm
 from django.http import JsonResponse
 from datetime import datetime
-from django.contrib.auth.decorators import login_required
+# from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 # Create your views here.
 
